@@ -6,12 +6,13 @@ const Buttons = (props) => {
         <>
             <div>
                
-                <Button variant="secondary" size="lg" block>
-                    Dare
+                <Button color={props.buttonClass} size="lg" block onClick={props.clickFunct} data-darevalue={props.isADare}>
+                    {props.children}
                 </Button>
                 <p>
-                    {props.myDare}
+
                 </p>
+              
             </div>
         </>
     )

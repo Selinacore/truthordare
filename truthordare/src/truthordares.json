@@ -1,20 +1,39 @@
 [
     {
         "dare": "Send your crush a text admitting that you love him/her.",
+        "isADare": true,
         "value": "1",
         "value_int": 1,
         "points": 5
     },
     {
         "dare": "Run around the neighborhood wearing only your favorite hat",
+        "isADare": true,
         "value": "2",
         "value_int": 2,
         "points": 10
     },
     {
         "dare": "Let your friends make you a snack from random things out of the fridge. Eat the whole thing",
+        "isADare": true,
         "value": "3",
         "value_int": 3,
         "points": 8
+    },
+    {
+        "dare": "Have you ever eaten bugs?",
+        "isADare": false,
+        "value": "4",
+        "value_int": 4,
+        "points": 6
+    },
+    {
+        "dare": "What did kids used to call you to hurt your feelings?",
+        "isADare": false,
+        "value": "5",
+        "value_int": 5,
+        "points": 9
     }
+
+
 ]
